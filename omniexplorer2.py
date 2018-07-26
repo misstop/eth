@@ -13,7 +13,7 @@ import datetime
 tx_id, type, time, from, to, amount, property_name, property_id, valid
 '''
 # 日志配置
-logging.basicConfig(level=logging.INFO,
+logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s (filename)s[line:%(lineno)d] %(levelname)s %(message)s',
                     datefmt='%a, %d %b %Y %H:%M:%S',
                     filename='omniexplorer2.log',
@@ -60,7 +60,7 @@ def insert_db(db, tx_id, type, time, _from, to, amount, property_name, valid, pr
         logging.info("insert success")
     except Exception as e:
         # Rollback in case there is any error
-        logging.info(e)
+        logging.error(e)
         db.rollback()
 
 
@@ -76,7 +76,7 @@ def get_pages():
         re = requests.post('https://api.omniexplorer.info/v1/transaction/address/0',
                            data=data, timeout=20)
     except Exception as e:
-        logging.info(e)
+        logging.error(e)
     detail = json.loads(re.text)
     return detail['pages']
 
@@ -88,12 +88,12 @@ def crawl_page(db, i):
         re = requests.post('https://api.omniexplorer.info/v1/transaction/address/%s' % i,
                            data=data, timeout=20)
     except Exception as e:
-        logging.info(e)
+        logging.error(e)
     d = json.loads(re.text)['transactions']
     logging.info(d)
     for _ in d:
         d_time = cur_time(_['blocktime'])
-        if _['valid']:
+        if 'valid' in _.keys():
             valid = 'CONFIRMED'
         else:
             valid = 'UNCONFIRMED'
@@ -111,7 +111,7 @@ def run():
             crawl_page(db, x+1)
             time.sleep(0.1)
         except Exception as e:
-            logging.info(e)
+            logging.error(e)
             continue
     db.close()
 

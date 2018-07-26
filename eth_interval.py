@@ -27,6 +27,7 @@ pwd = x['DATADB']['MYSQL']['PWD']
 database = x['DATADB']['MYSQL']['DNAME']
 # 时间间隔
 time_interval = x['INTERVAL']['TIME']
+time_sleep = x['INTERVAL']['SLEEP']
 
 
 # 数据库连接
@@ -103,7 +104,7 @@ def run():
     for _ in query_db(db):
         try:
             time_index, time_last = crawl_eth(_[1])
-            time.sleep(1)
+            time.sleep(time_sleep)
             tInterval = '(%s, %s)' % (time_index, time_last)
             # logging.info(tInterval)
             # logging.info(type(tInterval))

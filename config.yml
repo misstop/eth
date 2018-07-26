@@ -13,4 +13,7 @@ DATADB:
         DNAME:
 
 INTERVAL:
+    # 调度间隔时间（小时）
     TIME: 2
+    # 请求间隔时间（秒）
+    SLEEP: 5

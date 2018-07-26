@@ -90,7 +90,6 @@ def crawl_page(db, i):
     except Exception as e:
         logging.error(e)
     d = json.loads(re.text)['transactions']
-    logging.info(d)
     for _ in d:
         d_time = cur_time(_['blocktime'])
         if 'valid' in _.keys():

@@ -17,3 +17,10 @@ INTERVAL:
     TIME: 2
     # 请求间隔时间（秒）
     SLEEP: 2
+
+DATADBO:
+    MYSQL:
+        HOST:
+        UNAME:
+        PWD:
+        DNAME:

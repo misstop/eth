@@ -96,7 +96,11 @@ def crawl_page(db, i):
             valid = 'CONFIRMED'
         else:
             valid = 'UNCONFIRMED'
-        insert_db(db, _['txid'], _['type'], d_time, _['sendingaddress'], _['referenceaddress'], _['amount'],
+        if 'amount' in _.keys():
+            amount = _['amount']
+        else:
+            amount = ''
+        insert_db(db, _['txid'], _['type'], d_time, _['sendingaddress'], _['referenceaddress'], amount,
                   _['propertyname'], valid, _['propertyid'])
 
 

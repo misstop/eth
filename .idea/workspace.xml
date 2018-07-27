@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aee506d8-faed-41a5-8f7f-c6a0065dff32" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/omniexplorer4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/omniexplorer5.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/omniexplorer.py" afterPath="$PROJECT_DIR$/omniexplorer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/omniexplorer2.py" afterPath="$PROJECT_DIR$/omniexplorer2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/omniexplorer3.py" afterPath="$PROJECT_DIR$/omniexplorer3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/omniexplorer4.py" afterPath="$PROJECT_DIR$/omniexplorer4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/omniexplorer5.py" afterPath="$PROJECT_DIR$/omniexplorer5.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,14 +26,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="omniexplorer.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="omniexplorer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/omniexplorer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
-              <caret line="91" column="43" lean-forward="false" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
+            <state relative-caret-position="224">
+              <caret line="103" column="60" lean-forward="true" selection-start-line="103" selection-start-column="60" selection-end-line="103" selection-end-column="60" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1532610697564" expanded="true" signature="1319:1455" ph="INSERT INTO omni_explorer_1A... " />
+                <marker date="1532692111340" expanded="true" signature="1319:1455" ph="INSERT INTO omni_explorer_1A... " />
               </folding>
             </state>
           </provider>
@@ -39,22 +42,46 @@
       <file leaf-file-name="omniexplorer4.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/omniexplorer4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="73" column="57" lean-forward="true" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
+            <state relative-caret-position="169">
+              <caret line="95" column="31" lean-forward="true" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
               <folding>
-                <marker date="1532688846700" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_3M... " />
+                <marker date="1532692111502" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_3M... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="omniexplorer5.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="omniexplorer5.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/omniexplorer5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="61" column="45" lean-forward="true" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+            <state relative-caret-position="197">
+              <caret line="93" column="41" lean-forward="true" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
               <folding>
-                <marker date="1532688870836" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_1N... " />
+                <marker date="1532692111573" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_1N... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="omniexplorer3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omniexplorer3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="103" column="60" lean-forward="false" selection-start-line="103" selection-start-column="60" selection-end-line="103" selection-end-column="60" />
+              <folding>
+                <marker date="1532692111468" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_16... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="omniexplorer2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omniexplorer2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="103" column="60" lean-forward="false" selection-start-line="103" selection-start-column="60" selection-end-line="103" selection-end-column="60" />
+              <folding>
+                <marker date="1532692111537" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_37... " />
               </folding>
             </state>
           </provider>
@@ -89,11 +116,11 @@
         <option value="$PROJECT_DIR$/omniexplorer.log" />
         <option value="$PROJECT_DIR$/config.yml" />
         <option value="E:/py_demo/time_demo/str_time.py" />
-        <option value="$PROJECT_DIR$/omniexplorer.py" />
-        <option value="$PROJECT_DIR$/omniexplorer2.py" />
-        <option value="$PROJECT_DIR$/omniexplorer3.py" />
         <option value="$PROJECT_DIR$/omniexplorer4.py" />
         <option value="$PROJECT_DIR$/omniexplorer5.py" />
+        <option value="$PROJECT_DIR$/omniexplorer3.py" />
+        <option value="$PROJECT_DIR$/omniexplorer2.py" />
+        <option value="$PROJECT_DIR$/omniexplorer.py" />
       </list>
     </option>
   </component>
@@ -450,7 +477,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4228972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38317758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35017627" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16648822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -528,7 +555,7 @@
           <caret line="91" column="43" lean-forward="false" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1532610697564" expanded="true" signature="1319:1455" ph="INSERT INTO omni_explorer_1A... " />
+            <marker date="1532692111340" expanded="true" signature="1319:1455" ph="INSERT INTO omni_explorer_1A... " />
           </folding>
         </state>
       </provider>
@@ -548,7 +575,7 @@
         <state relative-caret-position="1932">
           <caret line="91" column="43" lean-forward="false" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
           <folding>
-            <marker date="1532610697619" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_37... " />
+            <marker date="1532692111537" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_37... " />
           </folding>
         </state>
       </provider>
@@ -558,7 +585,7 @@
         <state relative-caret-position="2415">
           <caret line="112" column="27" lean-forward="true" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
           <folding>
-            <marker date="1532610697654" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_16... " />
+            <marker date="1532692111468" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_16... " />
           </folding>
         </state>
       </provider>
@@ -612,7 +639,7 @@
           <caret line="91" column="43" lean-forward="false" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1532610697564" expanded="true" signature="1319:1455" ph="INSERT INTO omni_explorer_1A... " />
+            <marker date="1532692111340" expanded="true" signature="1319:1455" ph="INSERT INTO omni_explorer_1A... " />
           </folding>
         </state>
       </provider>
@@ -632,7 +659,7 @@
         <state relative-caret-position="1932">
           <caret line="91" column="43" lean-forward="false" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
           <folding>
-            <marker date="1532610697619" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_37... " />
+            <marker date="1532692111537" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_37... " />
           </folding>
         </state>
       </provider>
@@ -642,7 +669,7 @@
         <state relative-caret-position="1932">
           <caret line="91" column="43" lean-forward="false" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
           <folding>
-            <marker date="1532610697654" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_16... " />
+            <marker date="1532692111468" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_16... " />
           </folding>
         </state>
       </provider>
@@ -696,7 +723,7 @@
           <caret line="91" column="43" lean-forward="false" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1532610697564" expanded="true" signature="1319:1455" ph="INSERT INTO omni_explorer_1A... " />
+            <marker date="1532692111340" expanded="true" signature="1319:1455" ph="INSERT INTO omni_explorer_1A... " />
           </folding>
         </state>
       </provider>
@@ -716,7 +743,7 @@
         <state relative-caret-position="1932">
           <caret line="91" column="43" lean-forward="false" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
           <folding>
-            <marker date="1532610697619" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_37... " />
+            <marker date="1532692111537" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_37... " />
           </folding>
         </state>
       </provider>
@@ -726,7 +753,7 @@
         <state relative-caret-position="1932">
           <caret line="91" column="43" lean-forward="false" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
           <folding>
-            <marker date="1532610697654" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_16... " />
+            <marker date="1532692111468" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_16... " />
           </folding>
         </state>
       </provider>
@@ -854,53 +881,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/omniexplorer2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1932">
-          <caret line="91" column="43" lean-forward="false" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
-          <folding>
-            <marker date="1532610697619" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_37... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/omniexplorer3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="112" column="27" lean-forward="true" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
-          <folding>
-            <marker date="1532610697654" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_16... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/omniexplorer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="91" column="43" lean-forward="false" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1532610697564" expanded="true" signature="1319:1455" ph="INSERT INTO omni_explorer_1A... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/omniexplorer4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="73" column="57" lean-forward="true" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
+        <state relative-caret-position="169">
+          <caret line="95" column="31" lean-forward="true" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
           <folding>
-            <marker date="1532688846700" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_3M... " />
+            <marker date="1532692111502" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_3M... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/omniexplorer5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="61" column="45" lean-forward="true" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+        <state relative-caret-position="197">
+          <caret line="93" column="41" lean-forward="true" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
           <folding>
-            <marker date="1532688870836" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_1N... " />
+            <marker date="1532692111573" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_1N... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omniexplorer3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="103" column="60" lean-forward="false" selection-start-line="103" selection-start-column="60" selection-end-line="103" selection-end-column="60" />
+          <folding>
+            <marker date="1532692111468" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_16... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omniexplorer2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="103" column="60" lean-forward="false" selection-start-line="103" selection-start-column="60" selection-end-line="103" selection-end-column="60" />
+          <folding>
+            <marker date="1532692111537" expanded="true" signature="1320:1456" ph="INSERT INTO omni_explorer_37... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omniexplorer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="103" column="60" lean-forward="true" selection-start-line="103" selection-start-column="60" selection-end-line="103" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1532692111340" expanded="true" signature="1319:1455" ph="INSERT INTO omni_explorer_1A... " />
           </folding>
         </state>
       </provider>

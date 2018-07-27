@@ -50,11 +50,11 @@ def insert_db(db, tx_id, type, time, _from, to, amount, property_name, valid, pr
     cursor = db.cursor()
 
     # SQL 插入语句
-    sql = "INSERT INTO omni_explorer_1N VALUES ('{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}') on duplicate key update tx_id = values(tx_id)".format(
-        tx_id, type, time, _from, to, amount, property_name, valid, property_id)
+    sql = "INSERT INTO omni_explorer_3M VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s) on duplicate key update tx_id = values(tx_id)"
+    par = (tx_id, type, time, _from, to, amount, property_name, valid, property_id)
     try:
         # 执行sql语句
-        cursor.execute(sql)
+        cursor.execute(sql, par)
         # 提交到数据库执行
         db.commit()
         logging.info("insert success")
@@ -99,7 +99,7 @@ def crawl_page(db, i):
         if 'amount' in _.keys():
             amount = _['amount']
         else:
-            amount = ''
+            amount = None
         insert_db(db, _['txid'], _['type'], d_time, _['sendingaddress'], _['referenceaddress'], amount,
                   _['propertyname'], valid, _['propertyid'])
 

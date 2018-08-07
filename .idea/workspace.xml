@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aee506d8-faed-41a5-8f7f-c6a0065dff32" name="Default" comment="" />
+    <list default="true" id="aee506d8-faed-41a5-8f7f-c6a0065dff32" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth_blockSignal.py" afterPath="$PROJECT_DIR$/eth_blockSignal.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +67,8 @@
       <file leaf-file-name="omniexplorer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/omniexplorer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="161">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
                 <marker date="1532696892446" expanded="true" signature="1319:1345" ph="INSERT INTO omni_explorer_1A... " />
@@ -88,14 +91,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eth_blockSignal.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="eth_blockSignal.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eth_blockSignal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="117" column="14" lean-forward="true" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+            <state relative-caret-position="192">
+              <caret line="102" column="19" lean-forward="true" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1533373315426" expanded="true" signature="1096:1203" ph="INSERT INTO eth_blockSignal... " />
+                <marker date="1533626654363" expanded="true" signature="1096:1203" ph="INSERT INTO eth_blockSignal... " />
               </folding>
             </state>
           </provider>
@@ -104,7 +107,7 @@
       <file leaf-file-name="kafka_demo.py" pinned="false" current-in-tab="false">
         <entry file="file://E:/py_demo/notice_demo/kafka_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
+            <state relative-caret-position="644">
               <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
@@ -113,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="330">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -126,7 +129,7 @@
       <file leaf-file-name="eth_interval.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eth_interval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="2185">
               <caret line="102" column="35" lean-forward="true" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="35" />
               <folding>
                 <marker date="1532601477586" expanded="true" signature="1126:1175" ph="select id, c... coin_contrast" />
@@ -139,7 +142,7 @@
       <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="276">
               <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding />
             </state>
@@ -178,7 +181,6 @@
         <option value="$PROJECT_DIR$/eth_interval.py" />
         <option value="$PROJECT_DIR$/omniexplorer.log" />
         <option value="E:/py_demo/time_demo/str_time.py" />
-        <option value="$PROJECT_DIR$/config.yml" />
         <option value="$PROJECT_DIR$/omniexplorer4.log" />
         <option value="$PROJECT_DIR$/omniexplorer4.py" />
         <option value="$PROJECT_DIR$/omniexplorer5.py" />
@@ -188,6 +190,7 @@
         <option value="E:/py_demo/notice_demo/kafka_demo.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/request_test.py" />
+        <option value="$PROJECT_DIR$/config.yml" />
         <option value="$PROJECT_DIR$/eth_blockSignal.py" />
       </list>
     </option>
@@ -199,8 +202,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="14" />
-    <option name="y" value="52" />
+    <option name="x" value="243" />
+    <option name="y" value="77" />
     <option name="width" value="1942" />
     <option name="height" value="900" />
   </component>
@@ -223,6 +226,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,13 +241,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../notice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -540,10 +543,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="52" width="1942" height="900" extended-state="0" />
+    <frame x="243" y="77" width="1942" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16327623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16541755" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -551,7 +554,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54285717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.185034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32517007" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -922,7 +925,7 @@
     </entry>
     <entry file="file://E:/py_demo/notice_demo/kafka_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
+        <state relative-caret-position="644">
           <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
@@ -932,7 +935,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eth_interval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="2185">
           <caret line="102" column="35" lean-forward="true" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="35" />
           <folding>
             <marker date="1532601477586" expanded="true" signature="1126:1175" ph="select id, c... coin_contrast" />
@@ -941,18 +944,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="105" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/request_test.py" />
     <entry file="file://$PROJECT_DIR$/omniexplorer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="161">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
             <marker date="1532696892446" expanded="true" signature="1319:1345" ph="INSERT INTO omni_explorer_1A... " />
@@ -963,28 +959,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="276">
           <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eth_blockSignal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="117" column="14" lean-forward="true" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+        <state relative-caret-position="192">
+          <caret line="102" column="19" lean-forward="true" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1533373315426" expanded="true" signature="1096:1203" ph="INSERT INTO eth_blockSignal... " />
+            <marker date="1533626654363" expanded="true" signature="1096:1203" ph="INSERT INTO eth_blockSignal... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>

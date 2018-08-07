@@ -100,7 +100,7 @@ def get_msg(db, url):
 
 if __name__ == '__main__':
     db = connect_db()
-    block = 6079310
+    block = 6078100
     while block > 0:
         try:
             url = 'https://etherscan.io/txs?block=%s' % block
@@ -109,7 +109,7 @@ if __name__ == '__main__':
             for i in range(num):
                 url = 'https://etherscan.io/txs?block=%s&p=%s' % (block, i+1)
                 get_msg(db, url)
-                time.sleep(1)
+                time.sleep(2)
             block -= 1
         except Exception as e:
             logging.error(e)

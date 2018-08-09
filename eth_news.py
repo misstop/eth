@@ -115,10 +115,10 @@ def get_msg(site):
     inputData = html.xpath("//textarea")[0].text
     try:
         db = connect_db()
-        insert_db(db, txHash, txReceipt, int(block), timeStamp, From, to, value, limit, used, price, actual, nonce, inputData)
+        insert_db(db, txHash, txReceipt, block, timeStamp, From, to, value, limit, used, price, actual, nonce, inputData)
     except Exception as e:
         close_db(db)
-        return e
+        logging.info(e)
     close_db(db)
     return "success"
 
@@ -165,7 +165,7 @@ def select_msg(site):
 if __name__ == '__main__':
     app.run(
         host='0.0.0.0',
-        port=5000, debug=False)
+        port=5000, debug=True)
     # a = get_msg('0xf4a42c5afca3fc44a119c02d399364d07292bf67d369817496372f08709f6df0')
     # print(a)
 

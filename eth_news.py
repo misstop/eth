@@ -10,9 +10,11 @@ import time
 import datetime
 from lxml import etree
 from flask import Flask
+from flask_cors import *
 
 
 app = Flask(__name__)
+CORS(app, supports_credentials=True)
 # 日志设置
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s (filename)s[line:%(lineno)d] %(levelname)s %(message)s',
@@ -159,5 +161,5 @@ if __name__ == '__main__':
     # get_msg('0xf4a42c5afca3fc44a119c02d399364d07292bf67d369817496372f08709f6df0')
     app.run(
         host='0.0.0.0',
-        port=5000, debug=True)
+        port=5000, debug=False)
 

@@ -11,6 +11,7 @@ import datetime
 from lxml import etree
 from flask import Flask
 from flask_cors import *
+from flask import jsonify
 
 
 app = Flask(__name__)
@@ -151,7 +152,7 @@ def select_msg(site):
     }
     if dic:
         close_db(db)
-        return str(dic)
+        return jsonify(dic)
     else:
         close_db(db)
         return 'dic is null'

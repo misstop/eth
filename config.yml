@@ -20,7 +20,7 @@ INTERVAL:
 
 DATADBO:
     MYSQL:
-        HOST: 47.98.56.206
-        UNAME: root
-        PWD: 123456
-        DNAME: llf
+        HOST:
+        UNAME:
+        PWD:
+        DNAME:

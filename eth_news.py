@@ -93,20 +93,25 @@ def get_msg(site):
     html = etree.HTML(res.content)
     txHash = html.xpath("//div[@id='tx']")[0].text
     txReceipt = html.xpath("//span/font")[0].text
-    block = html.xpath("//div[contains(@class, 'col-sm-9 cbs')][3]/a")[0].text
+    block1 = html.xpath("//div[contains(@class, 'col-sm-9 cbs')][3]/a")[0].text
+    block2 = html.xpath("//div[contains(@class, 'col-sm-9 cbs')][3]/span")[0].text
+    block = block1+'('+block2+')'
     ht = str(res.content, encoding='utf-8')
     strTime = re.search(r'<span id="clock"></span>(.*?)</span>', ht)
     timeStamp = strTime.group(1)
     From = html.xpath("//div[contains(@class, 'col-sm-9 cbs')][5]/a")[0].text
     to = html.xpath("//a[contains(@class, 'wordwrap')]")[0].text
-    value = html.xpath("//div[contains(@class, 'col-sm-9 cbs')][7]/span")[0].text.replace("\n", "")
+    value_ls = html.xpath("//div[contains(@class, 'col-sm-9 cbs')][7]/span")
+    value = value_ls[0].xpath('string(.)').replace("\n", "")
     limit = html.xpath("//div[contains(@class, 'col-sm-9 cbs')][8]/span")[0].text.replace("\n", "")
     used = html.xpath("//div[contains(@class, 'col-sm-9 cbs')][9]/span")[0].text.replace("\n", "")
     price_ls = html.xpath("//div[contains(@class, 'col-sm-9 cbs')][10]/span")
     price = price_ls[0].xpath('string(.)').replace("\n", "")
     actual_ls = html.xpath("//div[contains(@class, 'col-sm-9 cbs')][11]/span")
     actual = actual_ls[0].xpath('string(.)').replace("\n", "")
-    nonce = html.xpath("//div[contains(@class, 'col-sm-9 cbs')][12]/span")[0].text
+    nonce1 = html.xpath("//div[contains(@class, 'col-sm-9 cbs')][12]/span[1]")[0].text
+    nonce2 = html.xpath("//div[contains(@class, 'col-sm-9 cbs')][12]/span[2]")[0].text
+    nonce = nonce1 + nonce2
     inputData = html.xpath("//textarea")[0].text
     try:
         db = connect_db()
@@ -148,7 +153,6 @@ def select_msg(site):
         "actual": row[10],
         "nonce": row[11],
         "inputData": row[12],
-        # "private": "<To access the private Note feature, you must be logged in>",
     }
     if dic:
         close_db(db)
@@ -159,8 +163,9 @@ def select_msg(site):
 
 
 if __name__ == '__main__':
-    # get_msg('0xf4a42c5afca3fc44a119c02d399364d07292bf67d369817496372f08709f6df0')
     app.run(
         host='0.0.0.0',
         port=5000, debug=False)
+    # a = get_msg('0xf4a42c5afca3fc44a119c02d399364d07292bf67d369817496372f08709f6df0')
+    # print(a)
 

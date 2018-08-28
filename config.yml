@@ -1,9 +1,9 @@
-#QUEUES:
-#    KAFKA:
+QUEUES:
+    KAFKA:
 #        HOST: ['47.75.33.177:9092','47.75.176.97:9092','47.75.170.254:9092']
-#        HOST: 47.75.116.175:9092
-#        topic: notice-test
-#        topic: notice-prod
+#        TOPIC: usdt-newly-prod
+        HOST: 47.75.116.175:9092
+        TOPIC: usdt-newly-test
 
 DATADB:
     MYSQL:

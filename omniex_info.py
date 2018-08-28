@@ -11,12 +11,11 @@ x = yaml.load(open('%s/config.yml' % cur_path, 'rb'))
 kafka_con = x['QUEUES']['KAFKA']['HOST']
 kafka_topic = x['QUEUES']['KAFKA']['TOPIC']
 
-
 # 日志配置
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s (filename)s[line:%(lineno)d] %(levelname)s %(message)s',
                     datefmt='%a, %d %b %Y %H:%M:%S',
-                    filename='omniec_info.log',
+                    filename='omniex_info.log',
                     filemode='a')
 
 
@@ -47,6 +46,7 @@ def crawl():
     producer.flush()
     logging.info('send to kafka=====================================================>')
     producer.close()
+
 
 SCHEDULER = BlockingScheduler()
 if __name__ == '__main__':
